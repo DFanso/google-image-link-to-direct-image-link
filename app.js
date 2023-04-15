@@ -25,5 +25,5 @@ app.post('/generate', async (req, res) => {
   }
 });
 
-const PORT = 1212;
+const PORT = 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
